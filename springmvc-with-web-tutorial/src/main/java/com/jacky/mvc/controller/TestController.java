@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("test")
 public class TestController {
 
+    public TestController(){
+        System.err.println("TestController init ...");
+    }
 
     @GetMapping("greeting")
     public String greeting(){
