@@ -11,12 +11,11 @@
 
     <!--<context:component-scan base-package="com.jacky.mvc.controller">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
-    </context:component-scan>-->
-
-
-    <context:component-scan base-package="com.jacky.mvc.service.app">
+    </context:component-scan>
+    -->
+    <context:component-scan base-package="com.jacky.mvc.service.app1">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
     </context:component-scan>
 
-    <bean id="appController" class="com.jacky.mvc.controller.AppController"></bean>
+    <bean id="app1Controller" class="com.jacky.mvc.controller.App1Controller"></bean>
 </beans>
