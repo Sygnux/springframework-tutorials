@@ -1,8 +1,22 @@
 # Compiled class file
 *.class
+target/
+
 
 # Log file
 *.log
+
+# Build Tools
+
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
 # BlueJ files
 *.ctxt
